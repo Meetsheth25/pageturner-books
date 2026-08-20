@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Location | Pageturner Books</title>
+
+<meta name="description" content="Get in touch with Pageturner Books. Visit our store in Booktown, CA, call us, or send an online inquiry about our book collection and events.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="contact.html">
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: #faf7f2; color: #2b2320; line-height: 1.6; }
+
+  header {
+    background: #2b2320;
+    color: #faf7f2;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header h1 { font-size: 1.8rem; letter-spacing: 1px; }
+  nav a {
+    color: #faf7f2;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.95rem;
+  }
+  nav a:hover { text-decoration: underline; }
+
+  .hero {
+    background: #7a5c3e;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .hero h2 { font-size: 2rem; margin-bottom: 8px; }
+  .hero p { font-size: 1rem; opacity: 0.9; }
+
+  main { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .contact-info, .contact-form {
+    flex: 1 1 380px;
+    background: #fff;
+    border: 1px solid #e0d8cc;
+    border-radius: 6px;
+    padding: 25px;
+  }
+  .contact-info h3, .contact-form h3 {
+    font-size: 1.4rem;
+    color: #7a5c3e;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #7a5c3e;
+    padding-bottom: 6px;
+  }
+  .info-item { margin-bottom: 15px; }
+  .info-item strong { display: block; color: #2b2320; margin-bottom: 3px; }
+
+  .form-group { margin-bottom: 15px; }
+  .form-group label { display: block; font-size: 0.9rem; margin-bottom: 5px; }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d0c8bc;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  .btn {
+    background: #7a5c3e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  .btn:hover { background: #5f4630; }
+
+  footer {
+    background: #2b2320;
+    color: #faf7f2;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📚 Pageturner Books</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Catalog</a>
+    <a href="contact.html">Contact</a>
+    <a href="sitemap.html">Sitemap</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Contact Pageturner Books</h2>
+  <p>We are always happy to help you find rare editions, place custom orders, or answer questions.</p>
+</section>
+
+<main>
+  <div class="contact-container">
+    
+    <div class="contact-info">
+      <h3>Store Details & Hours</h3>
+      
+      <div class="info-item">
+        <strong>📍 Address</strong>
+        123 Storybook Lane, Booktown, CA 90210
+      </div>
+
+      <div class="info-item">
+        <strong>📞 Phone Number</strong>
+        +1-555-019-2834
+      </div>
+
+      <div class="info-item">
+        <strong>✉️ Email Address</strong>
+        contact@pageturnerbooks.example
+      </div>
+
+      <div class="info-item">
+        <strong>🕒 Store Opening Hours</strong>
+        Monday – Saturday: 9:00 AM – 8:00 PM<br>
+        Sunday: 10:00 AM – 6:00 PM
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form action="#" method="get" onsubmit="alert('Thank you for contacting Pageturner Books!'); return false;">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" required placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" required placeholder="jane@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message / Book Inquiry</label>
+          <textarea id="message" rows="4" required placeholder="Ask us about stock, pre-orders, or book recommendations..."></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Pageturner Books. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

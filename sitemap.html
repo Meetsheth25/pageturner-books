@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Sitemap | Pageturner Books</title>
+
+<meta name="description" content="HTML Sitemap for Pageturner Books listing all site sections including Home, Catalog, Categories, Contact, and XML Sitemap.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="sitemap.html">
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: #faf7f2; color: #2b2320; line-height: 1.6; }
+
+  header {
+    background: #2b2320;
+    color: #faf7f2;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header h1 { font-size: 1.8rem; letter-spacing: 1px; }
+  nav a {
+    color: #faf7f2;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.95rem;
+  }
+  nav a:hover { text-decoration: underline; }
+
+  .hero {
+    background: #7a5c3e;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .hero h2 { font-size: 2rem; margin-bottom: 8px; }
+  .hero p { font-size: 1rem; opacity: 0.9; }
+
+  main { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+
+  .sitemap-card {
+    background: #fff;
+    border: 1px solid #e0d8cc;
+    border-radius: 6px;
+    padding: 30px;
+  }
+  .sitemap-card h3 {
+    font-size: 1.4rem;
+    color: #7a5c3e;
+    border-bottom: 2px solid #7a5c3e;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+
+  .sitemap-tree { list-style: none; padding-left: 10px; }
+  .sitemap-tree > li { margin-bottom: 20px; }
+  .sitemap-tree a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #7a5c3e;
+    text-decoration: none;
+  }
+  .sitemap-tree a:hover { text-decoration: underline; }
+  .sitemap-tree p { font-size: 0.9rem; color: #6b5f52; margin-top: 3px; }
+
+  .sub-tree {
+    list-style: square;
+    margin-top: 8px;
+    margin-left: 25px;
+    font-weight: normal;
+  }
+  .sub-tree li { margin-bottom: 5px; font-size: 0.95rem; }
+  .sub-tree a { font-size: 0.95rem; font-weight: normal; color: #2b2320; }
+
+  footer {
+    background: #2b2320;
+    color: #faf7f2;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📚 Pageturner Books</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Catalog</a>
+    <a href="contact.html">Contact</a>
+    <a href="sitemap.html">Sitemap</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Website HTML Sitemap</h2>
+  <p>Overview of all pages, book categories, and navigation endpoints on Pageturner Books.</p>
+</section>
+
+<main>
+  <div class="sitemap-card">
+    <h3>Pageturner Books Sitemap</h3>
+
+    <ul class="sitemap-tree">
+
+      <li>
+        <a href="index.html">🏠 Home Page (index.html)</a>
+        <p>Main landing page featuring top book categories, book collection preview video, and business information.</p>
+        <ul class="sub-tree">
+          <li><a href="index.html#books">Book Categories Grid (Flexbox)</a></li>
+          <li><a href="index.html#video">Bookstore Preview Video</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="menu.html">📚 Book Catalog & Genre Menu (menu.html)</a>
+        <p>Complete listing of fiction and non-fiction titles organized by genre.</p>
+        <ul class="sub-tree">
+          <li><a href="menu.html#scifi">Sci-Fi & Future Tech</a></li>
+          <li><a href="menu.html#comedy">Humor & Satire</a></li>
+          <li><a href="menu.html#drama">Drama & Fiction</a></li>
+          <li><a href="menu.html#action">Action & Thrillers</a></li>
+          <li><a href="menu.html#horror">Horror & Mystery</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="contact.html">📞 Contact & Location Page (contact.html)</a>
+        <p>Store address, opening hours, phone number, email contact, and online message form.</p>
+      </li>
+
+      <li>
+        <a href="sitemap.xml">📄 XML Sitemap (sitemap.xml)</a>
+        <p>Machine-readable XML sitemap formatted for Google, Bing, and search engine crawlers.</p>
+      </li>
+
+      <li>
+        <a href="robots.txt">🤖 Robots.txt Configuration (robots.txt)</a>
+        <p>Search engine crawler directives specifying allowed paths, blocked administrative directories, and sitemap location.</p>
+      </li>
+
+    </ul>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Pageturner Books. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

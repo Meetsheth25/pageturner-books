@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /test/
+
+# IMPORTANT: Replace [YOUR_DEPLOYMENT_DOMAIN] with your actual deployed website domain (e.g. https://yourwebsite.com)
+Sitemap: [YOUR_DEPLOYMENT_DOMAIN]/sitemap.xml
