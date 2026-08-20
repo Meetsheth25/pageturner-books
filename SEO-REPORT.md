@@ -309,16 +309,16 @@ The PageSpeed report highlights positive optimization insights:
 
 ### PageSpeed Insights Screenshots & Evidence
 
-![Figure 1: PageSpeed Insights – Before Optimization](Screenshot/05a%20%E2%80%93%20Performance%20Metrics.png)  
+![Figure 1: PageSpeed Insights – Before Optimization](Screenshot/05A%20%E2%80%93%20Before%20Performance%20Metrics.png)  
 *Figure 1: PageSpeed Insights – Before Optimization (Overall Scores: Performance 100, Accessibility 91, Best Practices 100, SEO 90).*
 
-![Figure 2: PageSpeed Insights – Before Performance Metrics](Screenshot/05b%20%E2%80%93%20Document%20Request%20Latency.png)  
+![Figure 2: PageSpeed Insights – Before Performance Metrics](Screenshot/05B%20%E2%80%93%20Before%20%20Document%20Request%20Latency.png)  
 *Figure 2: PageSpeed Insights – Before Performance Metrics (FCP 0.8 s, LCP 0.8 s, TBT 0 ms, CLS 0, Speed Index 0.8 s).*
 
-![Figure 3: PageSpeed Insights – After Optimization](Screenshot/06a-pagespeed-overall-score.png)  
+![Figure 3: PageSpeed Insights – After Optimization](Screenshot/06A-%20AFTER%20Pagespeed%20Overall%20Score.png)  
 *Figure 3: PageSpeed Insights – After Optimization (Overall Scores: Performance 100, Accessibility 100, Best Practices 100, SEO 100).*
 
-![Figure 4: PageSpeed Insights – After Performance Metrics](Screenshot/06b-pagespeed-performance-metrics.png)  
+![Figure 4: PageSpeed Insights – After Performance Metrics](Screenshot/06B-%20%20AFTER%20Pagespeed%20Performance%20Metrics.png)  
 *Figure 4: PageSpeed Insights – After Performance Metrics (FCP 0.8 s, LCP 0.8 s, TBT 0 ms, CLS 0, Speed Index 0.8 s).*
 
 ---
