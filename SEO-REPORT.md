@@ -151,25 +151,25 @@ Inside the `<head>` of `index.html` and `bookstore.html`, the following valid JS
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>[YOUR_DEPLOYMENT_DOMAIN]/index.html</loc>
+    <loc>https://meetsheth25.github.io/pageturner-books/index.html</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>[YOUR_DEPLOYMENT_DOMAIN]/menu.html</loc>
+    <loc>https://meetsheth25.github.io/pageturner-books/menu.html</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>[YOUR_DEPLOYMENT_DOMAIN]/contact.html</loc>
+    <loc>https://meetsheth25.github.io/pageturner-books/contact.html</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>[YOUR_DEPLOYMENT_DOMAIN]/sitemap.html</loc>
+    <loc>https://meetsheth25.github.io/pageturner-books/sitemap.html</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -207,7 +207,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /test/
 
-Sitemap: [YOUR_DEPLOYMENT_DOMAIN]/sitemap.xml
+Sitemap: https://meetsheth25.github.io/pageturner-books/sitemap.xml
 ```
 
 ### Directive Breakdown
@@ -283,8 +283,8 @@ Refactored `.books` container CSS to use responsive Flexbox:
 
 ## 10. Manual Steps Remaining for Student Submission
 
-1. **Replace Deployment URL Placeholder**:
-   - In `sitemap.xml`, `robots.txt`, and `SEO-REPORT.md`, replace `[YOUR_DEPLOYMENT_DOMAIN]` with your actual deployed website domain (if hosted on a public web server like GitHub Pages or Netlify).
+1. **GitHub Pages Deployment Domain Configured**:
+   - Updated `sitemap.xml`, `robots.txt`, `sitemap.html`, `index.html`, and `SEO-REPORT.md` to use the production URL (`https://meetsheth25.github.io/pageturner-books`).
 2. **Live Semrush Account Metrics (Optional)**:
    - If required by your professor, log into your free/paid Semrush account, run Keyword Magic Tool for "book store", and update Section 2 with your exported CSV numbers.
 3. **Live PageSpeed Insights Scores (Optional)**:
