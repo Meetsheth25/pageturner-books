@@ -194,6 +194,17 @@ Keyword Gap analysis was executed against top bookstore competitors (such as Pow
 ![Figure 5.1: XML Sitemap Validation Results](Screenshot/02-sitemap-validation.png.png)  
 *Figure 5.1: XML Sitemap syntax validation results.*
 
+### XML-Sitemaps.com Sitemap Generation
+
+The website was submitted to XML-Sitemaps.com to generate and verify a sitemap as required by the assignment.
+
+**Website:** https://meetsheth25.github.io/pageturner-books/
+
+The tool completed the sitemap generation successfully and discovered 7 URLs, with 6 URLs added and 1 skipped.
+
+![XML-Sitemaps.com Sitemap Generation](Screenshot/07-%20Xml%20Sitemaps%20Generator.png)  
+*Figure 5.2: XML-Sitemaps.com online sitemap generator completion report.*
+
 ---
 
 ## 6. HTML Sitemap (`sitemap.html`)
